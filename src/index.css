@@ -61,6 +61,8 @@
 }
 
 body {
+  box-sizing: border-box;
+  background-color: #fffefc
 }
 
 .header-shadow {
@@ -77,4 +79,20 @@ body {
 
 .container{
   width: calc(100%-64px)
+}
+
+.align-flex-end {
+  align-items: flex-end;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.instagram:hover{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    border-radius: 20%;
+    transform: scale(1.5);
+    color:transparent;
 }

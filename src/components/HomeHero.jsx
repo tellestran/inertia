@@ -62,7 +62,10 @@ const Elements = [
         </div>
         <div className="w-full space-between flex-col align-center justify-center flex items-center gap-y-[42.5px]">
           {Elements.map((element) => (
-            <a key={element.id} className="flex cursor-pointer h-[165px]">
+            <a
+              key={element.id}
+              className="flex cursor-pointer h-[165px] duration-300 hover:scale-90"
+            >
               <img
                 src={element.imgSrc}
                 alt="Square Image"

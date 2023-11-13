@@ -35,7 +35,10 @@ const Carousel = () => {
     <div className="bg-[#ebe9eb] w-full h-[144px] justify-center">
       <div className="grid grid-cols-4 gap-5 px-[120px] py-6 align-center justify-center items-center">
         {Carousels.map((carousel) => (
-          <div key={carousel.id} className="bg-[#fff] rounded-lg">
+          <div
+            key={carousel.id}
+            className="bg-[#fff] rounded-lg duration-300 hover:scale-90"
+          >
             <a className="cursor-pointer">
               <div className="flex justify-center align-middle items-center">
                 <img

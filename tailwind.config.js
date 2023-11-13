@@ -9,7 +9,11 @@ module.exports = {
         "4/3": "4 / 3",
         "1.8/1": "18 / 10",
         "1/1": "1 / 1",
+        "1.5/1": "15 / 10",
       },
+      backgroundColor:{
+        'frontpage':"url('assets/BackgroundImage.webp')"
+      }
     },
     color: {
       "accent-dark": "hsl(var(--color-accent-dark)/<alpha-value>)",
