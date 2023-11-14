@@ -84,7 +84,7 @@ const Footer = () => {
   ];
 
   return (
-    <div className="py-8 w-full flex justify-center align-center items-center bg-white">
+    <div className="py-8 w-full flex justify-center align-center items-center bg-[--color-white]">
       <div className="max-w-[1200px] w-[1200px] ">
         <div className="grid grid-cols-2 gap-12 border-b-2 pb-6 border-solid">
           <div>
@@ -165,8 +165,7 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          <p className=" text-[--color-700] font-[500] text-[0.9rem] pt-7">© 2022 Inertia Wordpress Theme, MNMLD - All rights reserved.</p>
-        </div>
+4        </div>
       </div>
     </div>
   );

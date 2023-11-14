@@ -29,24 +29,6 @@ const FrontPageSubcribe = () => {
                 <BsTwitter className="h-6 w-6 cursor-pointer duration-500 hover:scale-90 hover:text-[#2ea2cc]" />
               </div>
             </div>
-            {/* <div className="formbox text-right relative ">
-              <form onSubmit={handleSubmit}>
-                <input
-                  type="email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  required
-                  placeholder="Enter your email address here!"
-                  className="p-4 w-full max-x-[600px] border-box bg-white border-1 border-solid border-[#515151] rounded-[5px] text-left"
-                />
-                <button
-                  type="submit"
-                  className="text-xs p-2.5 absolute top-1/2 -translate-y-1/2 right-2 text-center"
-                >
-                  Subscribe
-                </button>{" "}
-              </form>
-            </div> */}
             <div className="formbox text-right relative ">
               <form onSubmit={handleSubmit}>
                 <div className="relative">
@@ -56,11 +38,11 @@ const FrontPageSubcribe = () => {
                     onChange={(e) => setEmail(e.target.value)}
                     required
                     placeholder="Enter your email address here!"
-                    className="p-4 w-full max-x-[600px] border-box bg-white border-1 border-solid border-[#515151] rounded-[5px] text-left"
+                    className="p-4 w-full max-x-[600px] border-box bg-[--color-white] border-1 border-solid border-[#515151] rounded-[5px] text-left"
                   />
                   <button
                     type="submit"
-                    className="text-[0.85rem] p-2.5 absolute top-1/2 -translate-y-1/2 right-2 text-center uppercase font-[500] cursor-pointer rounded-[5px] border-[--color-accent] bg-[--color-accent] text-white hover:bg-black duration-300"
+                    className="text-[0.85rem] p-2.5 absolute top-1/2 -translate-y-1/2 right-2 text-center uppercase font-[500] cursor-pointer rounded-[5px] border-[--color-accent] bg-[--color-accent] text-[--color-white] hover:bg-black duration-300"
                   >
                     Subscribe
                   </button>

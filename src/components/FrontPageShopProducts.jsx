@@ -55,7 +55,7 @@ const FrontPageShopProducts = () => {
         </p>
         <div className="grid grid-cols-4 my-1 gap-6 py-10 ">
           {Products.map((product) => (
-            <div className="gridItem flex-col bg-white box-shadow">
+            <div className="gridItem flex-col bg-[--color-white] box-shadow">
               <div className="itemImage">
                 <a>
                   <img
@@ -78,7 +78,7 @@ const FrontPageShopProducts = () => {
             </div>
           ))}
         </div>
-        <button className="uppercase mt-6 py-4 px-20 text-white bg-[--color-900] tracking-[1px] inline-block text-[0.85rem] cursor-pointer hover:bg-[#404040] duration-300">Shop All</button>
+        <button className="uppercase mt-6 py-4 px-20 text-[--color-white] bg-[--color-900] tracking-[1px] inline-block text-[0.85rem] cursor-pointer hover:bg-[#404040] duration-300">Shop All</button>
       </div>
     </div>
   );
