@@ -60,9 +60,30 @@
   }
 }
 
+/* Define color schemes */
+/* :root {
+  --color-text-light: #000;
+  --color-bg-light: #fff;
+  --color-text-dark: #fff;
+  --color-bg-dark: #000;
+} */
+
+/* Apply light theme */
+/* .light-theme {
+  --color-text: var(--color-text-light);
+  --color-bg: var(--color-bg-light);
+}
+
+/* Apply dark theme */
+/* .dark-theme {
+  --color-text: var(--color-text-dark);
+  --color-bg: var(--color-bg-dark);}
+ */
+
+/* Use the variables */
 body {
-  box-sizing: border-box;
-  background-color: #fffefc
+  background-color: var(--color-bg);
+  color: var(--color-text);
 }
 
 .header-shadow {
@@ -89,10 +110,3 @@ body {
   text-align: left;
 }
 
-.instagram:hover{
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-    background-clip: text;
-    border-radius: 20%;
-    transform: scale(1.5);
-    color:transparent;
-}

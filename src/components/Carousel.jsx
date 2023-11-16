@@ -5,34 +5,34 @@ import carouselImg3 from "../assets/carouselImg3.webp";
 import carouselImg4 from "../assets/carouselImg4.webp";
 
 const Carousel = () => {
-    const Carousels = [
-      {
-        id: 1,
-        srcImg: carouselImg1,
-        description: "the beginner's guide to the paleo diet",
-        src: "#",
-      },
-      {
-        id: 2,
-        srcImg: carouselImg2,
-        description: "according to nutritionists, these are ..",
-        src: "#",
-      },
-      {
-        id: 3,
-        srcImg: carouselImg3,
-        description: "the beginner's guide to the paleo diet",
-        src: "#",
-      },
-      {
-        id: 4,
-        srcImg: carouselImg4,
-        description: "the beginner's guide to the paleo diet",
-        src: "#",
-      },
-    ];
+  const Carousels = [
+    {
+      id: 1,
+      srcImg: carouselImg1,
+      description: "the beginner's guide to the paleo diet",
+      src: "#",
+    },
+    {
+      id: 2,
+      srcImg: carouselImg2,
+      description: "according to nutritionists, these are ..",
+      src: "#",
+    },
+    {
+      id: 3,
+      srcImg: carouselImg3,
+      description: "the beginner's guide to the paleo diet",
+      src: "#",
+    },
+    {
+      id: 4,
+      srcImg: carouselImg4,
+      description: "the beginner's guide to the paleo diet",
+      src: "#",
+    },
+  ];
   return (
-    <div className="bg-[#ebe9eb] w-full h-[144px] justify-center dark:!bg-black dark:!text-white">
+    <div className="bg-[#ebe9eb] w-full h-[144px] justify-center ">
       <div className="grid grid-cols-4 gap-5 px-[120px] py-6 align-center justify-center items-center">
         {Carousels.map((carousel) => (
           <div

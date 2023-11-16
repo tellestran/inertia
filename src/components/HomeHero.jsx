@@ -32,7 +32,7 @@ const Elements = [
   },
 ];
   return (
-    <div className="w-[70%] flex mx-[15%] flex-col py-14 dark:!bg-black dark:!text-white">
+    <div className="w-[70%] flex mx-[15%] flex-col py-14 ">
       <h2 className="font-[600] text-4xl capitalize tracking-wide py-14">
         top stories
       </h2>

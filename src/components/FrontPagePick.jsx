@@ -30,7 +30,7 @@ const FrontPagePick = () => {
     },
   ];
   return (
-    <div className="py-12 w-full flex justify-center items-center dark:!bg-black dark:!text-white">
+    <div className="py-12 w-full flex justify-center items-center">
       <div className="max-w-[1200px] w-[1200px]">
         <div className="flex justify-between">
           <h2 className="text-3xl font-semibold capitalize align-bottom">

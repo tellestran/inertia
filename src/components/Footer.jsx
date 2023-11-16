@@ -1,10 +1,8 @@
-import React, { useContext } from "react";
-import Logo from '../assets/logo.webp'
+import React from "react";
+import Logo from "../assets/logo.webp";
 
-export const ThemeContext = React.createContext();
 
 const Footer = () => {
-  const { theme, toggleTheme } = useContext(ThemeContext);
   const Features = [
     {
       id: 1,
@@ -87,7 +85,7 @@ const Footer = () => {
   ];
 
   return (
-    <div className="py-8 w-full flex justify-center align-center items-center bg-[--color-white] dark:!bg-black dark:!text-white">
+    <div className="py-8 w-full flex justify-center align-center items-center bg-[--color-white] ">
       <div className="max-w-[1200px] w-[1200px] ">
         <div className="grid grid-cols-2 gap-12 border-b-2 pb-6 border-solid">
           <div>
@@ -167,7 +165,6 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div>4 </div>
       </div>
     </div>
   );

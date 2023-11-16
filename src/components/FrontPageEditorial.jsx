@@ -4,7 +4,7 @@ import {BsArrowRightShort} from 'react-icons/bs'
 
 const FrontPageEditorial = () => {
   return (
-    <div className="w-full h-auto justify-center dark:!bg-black dark:!text-white">
+    <div className="w-full h-auto justify-center ">
       <div className="grid grid-cols-2 mx-[220px] py-12 ">
         <div
           className="w-[540px] items-center justify-center align-center mx-[20%]

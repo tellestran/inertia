@@ -45,7 +45,7 @@ const FrontPageShopProducts = () => {
     },
   ];
   return (
-    <div className="py-12 w-full flex justify-center align-center items-center dark:!bg-black dark:!text-white">
+    <div className="py-12 w-full flex justify-center align-center items-center ">
       <div className="max-w-[1200px] w-[1200px] justify-center items-center text-center align-center">
         <h2 className="text-4xl font-semibold capitalize tracking-[2px] py-6">
           Products We Love
