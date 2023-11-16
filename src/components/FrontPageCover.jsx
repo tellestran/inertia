@@ -2,11 +2,13 @@ import React from "react";
 
 const FrontPageCover = () => {
   return (
-    <div className="w-full h-screen bg-[url('assets/BackgroundImage.webp')]  bg-no-repeat bg-cover bg-center relative">
+    <div className="w-full h-screen bg-[url('assets/BackgroundImage.webp')]  bg-no-repeat bg-cover bg-center relative dark:!bg-black dark:!text-white">
       <div className="absolute inset-0 bg-black opacity-50"></div>
       <div className="absolute flex items-center justify-center text-[--color-white] left-[50%] top-[50%] transform -translate-x-[50%] -translate-y-[50%] flex-col w-[780px]">
         <p className="text-5xl text-center font-bold leading-[60px] capitalize duration-300">
-          <a className="hover:underline duration: 300">Furnished Versus Unfurnished Apartments: The Pros and Cons</a>
+          <a className="hover:underline duration: 300">
+            Furnished Versus Unfurnished Apartments: The Pros and Cons
+          </a>
         </p>
         <p className="pt-8 max-w-[480px] text-[1.1rem] text-center">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

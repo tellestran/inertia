@@ -30,7 +30,7 @@ const FrontPagePick = () => {
     },
   ];
   return (
-    <div className="py-12 w-full flex justify-center items-center">
+    <div className="py-12 w-full flex justify-center items-center dark:!bg-black dark:!text-white">
       <div className="max-w-[1200px] w-[1200px]">
         <div className="flex justify-between">
           <h2 className="text-3xl font-semibold capitalize align-bottom">
@@ -46,7 +46,10 @@ const FrontPagePick = () => {
         </div>
         <div className="grid grid-cols-4 pt-8 gap-6">
           {Pagepicks.map((pagepick) => (
-            <div key={pagepick.id} className="flex-col duration-300 hover:scale-90">
+            <div
+              key={pagepick.id}
+              className="flex-col duration-300 hover:scale-90"
+            >
               <div>
                 <img
                   src={pagepick.imgSrc}

@@ -10,7 +10,7 @@ const FrontPageSubcribe = () => {
     // Here you can handle the form submission, e.g., send the data to your server
   };
   return (
-    <div className="py-8 w-full flex justify-center align-center items-center">
+    <div className="py-8 w-full flex justify-center align-center items-center dark:!bg-black dark:!text-white">
       <div className="max-w-[1200px] w-[1200px] bg-[--color-100] p-20">
         <div className="">
           <div className="grid grid-cols-2 gap-14">

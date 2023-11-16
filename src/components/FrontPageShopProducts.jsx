@@ -45,7 +45,7 @@ const FrontPageShopProducts = () => {
     },
   ];
   return (
-    <div className="py-12 w-full flex justify-center align-center items-center">
+    <div className="py-12 w-full flex justify-center align-center items-center dark:!bg-black dark:!text-white">
       <div className="max-w-[1200px] w-[1200px] justify-center items-center text-center align-center">
         <h2 className="text-4xl font-semibold capitalize tracking-[2px] py-6">
           Products We Love
@@ -65,20 +65,26 @@ const FrontPageShopProducts = () => {
                 </a>
               </div>
               <div className="itemText text-left p-6 bg-white">
-                <span className="uppercase text-[12px] font-[400]">{product.category}</span>
+                <span className="uppercase text-[12px] font-[400]">
+                  {product.category}
+                </span>
                 <h3 className="text-[1.1rem] capitalize font-semibold  my-2">
                   {product.name}
                 </h3>
                 <span className="text-[12px] font-light flex">
                   <span className="pr-2">{product.price}</span>
                   <span className="line-through pr-2">{product.linePrice}</span>
-                  <span className="pl-2 text-[--color-red]">{product.redPirce}</span>
+                  <span className="pl-2 text-[--color-red]">
+                    {product.redPirce}
+                  </span>
                 </span>
               </div>
             </div>
           ))}
         </div>
-        <button className="uppercase mt-6 py-4 px-20 text-[--color-white] bg-[--color-900] tracking-[1px] inline-block text-[0.85rem] cursor-pointer hover:bg-[#404040] duration-300">Shop All</button>
+        <button className="uppercase mt-6 py-4 px-20 text-[--color-white] bg-[--color-900] tracking-[1px] inline-block text-[0.85rem] cursor-pointer hover:bg-[#404040] duration-300">
+          Shop All
+        </button>
       </div>
     </div>
   );

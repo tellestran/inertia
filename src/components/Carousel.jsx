@@ -32,7 +32,7 @@ const Carousel = () => {
       },
     ];
   return (
-    <div className="bg-[#ebe9eb] w-full h-[144px] justify-center">
+    <div className="bg-[#ebe9eb] w-full h-[144px] justify-center dark:!bg-black dark:!text-white">
       <div className="grid grid-cols-4 gap-5 px-[120px] py-6 align-center justify-center items-center">
         {Carousels.map((carousel) => (
           <div

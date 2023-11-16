@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Carousel from "./components/Carousel";
 import FrontPageCover from "./components/FrontPageCover";
 import FrontPageEditorial from "./components/FrontPageEditorial";
@@ -13,13 +13,30 @@ import Footer from "./components/Footer";
 
 export const ThemeContext = React.createContext(null);
 function App() {
-  const [theme, setTheme] = useState("dark");
-  const toggleTheme = () => {
-    setTheme((curr) => (curr === "light" ? "dark" : "light"));
-  };
+    const [theme, setTheme] = useState(null);
+
+    useEffect(() => {
+      if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+        setTheme("dark");
+      } else {
+        setTheme("light");
+      }
+    }, []);
+
+    useEffect(() => {
+      if (theme === "dark") {
+        document.documentElement.classList.add("dark");
+      } else {
+        document.documentElement.classList.remove("dark");
+      }
+    }, [theme]);
+
+    const handleThemeSwitch = () => {
+      setTheme(theme === "dark" ? "light" : "dark");
+    };
+
 
   return (
-    <ThemeContext.Provider value={{ theme, toggleTheme }}>
       <div>
         <SaleNotification />
         <Navbar />
@@ -33,7 +50,6 @@ function App() {
         <FrontPageSubcribe />
         <Footer />
       </div>
-    </ThemeContext.Provider>
   );
 }
 
