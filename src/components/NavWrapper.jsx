@@ -13,7 +13,7 @@ const NavWrapper = () => {
     { id: 9, src: "#", element: "diy" },
   ];
   return (
-    <nav className="flex justify-center items-center space-x-4 text-[12px] uppercase text-[#404040] bg-[#ffffff] header-shadow ">
+    <nav className="flex justify-center items-center space-x-4 text-[12px] uppercase header-shadow ">
       {NavElements.map((navelement) => (
         <a key={navelement.key} href="#" className="px-4 py-2 rounded">
           {navelement.element}

@@ -1,8 +1,8 @@
 import React from "react";
-import mainHero from "../assets/hero1.webp";
-import heroElementImg1 from "../assets/heroElement1.webp";
-import heroElementImg2 from "../assets/heroElement2.webp";
-import heroElementImg3 from "../assets/heroElement3.webp";
+import mainHero from "../../assets/hero1.webp";
+import heroElementImg1 from "../../assets/heroElement1.webp";
+import heroElementImg2 from "../../assets/heroElement2.webp";
+import heroElementImg3 from "../../assets/heroElement3.webp";
 
 const HomeHero = () => {
 const Elements = [
@@ -32,7 +32,7 @@ const Elements = [
   },
 ];
   return (
-    <div className="w-[70%] flex mx-[15%] flex-col py-14 ">
+    <div className="w-[70%] flex mx-[1/..5%] flex-col py-14 ">
       <h2 className="font-[600] text-4xl capitalize tracking-wide py-14">
         top stories
       </h2>

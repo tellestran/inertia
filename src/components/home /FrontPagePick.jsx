@@ -1,8 +1,8 @@
 import React from "react";
-import FrontPageImg1 from "../assets/FrontPageImg1.webp";
-import FrontPageImg2 from "../assets/FrontPageImg2.webp";
-import FrontPageImg3 from "../assets/FrontPageImg3.webp";
-import FrontPageImg4 from "../assets/FrontPageImg4.webp";
+import FrontPageImg1 from "../../assets/FrontPageImg1.webp";
+import FrontPageImg2 from "../../assets/FrontPageImg2.webp";
+import FrontPageImg3 from "../../assets/FrontPageImg3.webp";
+import FrontPageImg4 from "../../assets/FrontPageImg4.webp";
 import { BsArrowRightShort } from "react-icons/bs";
 
 const FrontPagePick = () => {
@@ -68,3 +68,6 @@ const FrontPagePick = () => {
 };
 
 export default FrontPagePick;
+
+
+

@@ -1,5 +1,5 @@
 import React from 'react'
-import frontPageImg from '../assets/frontPageEditorial1.webp'
+import frontPageImg from '../../assets/frontPageEditorial1.webp'
 import {BsArrowRightShort} from 'react-icons/bs'
 
 const FrontPageEditorial = () => {
@@ -7,7 +7,7 @@ const FrontPageEditorial = () => {
     <div className="w-full h-auto justify-center ">
       <div className="grid grid-cols-2 mx-[220px] py-12 ">
         <div
-          className="w-[540px] items-center justify-center align-center mx-[20%]
+          className="w-[540px] items-center justify-center align-center 
         "
         >
           <img

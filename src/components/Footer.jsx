@@ -93,12 +93,12 @@ const Footer = () => {
               <img src={Logo} className="w-[133px] h-auto pt-3 pb-7" />
             </div>
             <div className="pb-7">
-              <p className="max-w-[440px] text-[--color-500] text-[0.9rem]">
+              <p className="max-w-[440px] text-[0.9rem]">
                 Inertia is a premium multiuse wordpress theme made for
                 magazines, blogs and creators.{" "}
               </p>
               <p>&nbsp;</p>
-              <p className="max-w-[440px] text-[--color-500] text-[0.9rem]">
+              <p className="max-w-[440px] text-[0.9rem]">
                 Lightweight wordpress theme, SEO-Optimized, Providing blazing
                 fast performance and speed. In addition to being
                 accessibility-compliant theme and loaded with features with more

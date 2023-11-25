@@ -1,8 +1,8 @@
 import React from "react";
-import carouselImg1 from "../assets/carouselImg1.webp";
-import carouselImg2 from "../assets/carouselImg2.webp";
-import carouselImg3 from "../assets/carouselImg3.webp";
-import carouselImg4 from "../assets/carouselImg4.webp";
+import carouselImg1 from "../../assets/carouselImg1.webp";
+import carouselImg2 from "../../assets/carouselImg2.webp";
+import carouselImg3 from "../../assets/carouselImg3.webp";
+import carouselImg4 from "../../assets/carouselImg4.webp";
 
 const Carousel = () => {
   const Carousels = [
@@ -32,12 +32,12 @@ const Carousel = () => {
     },
   ];
   return (
-    <div className="bg-[#ebe9eb] w-full h-[144px] justify-center ">
+    <div className=" w-full h-[144px] justify-center ">
       <div className="grid grid-cols-4 gap-5 px-[120px] py-6 align-center justify-center items-center">
         {Carousels.map((carousel) => (
           <div
             key={carousel.id}
-            className="bg-[#fff] rounded-lg duration-300 hover:scale-90"
+            className="rounded-lg duration-300 hover:scale-90"
           >
             <a className="cursor-pointer">
               <div className="flex justify-center align-middle items-center">
@@ -45,7 +45,7 @@ const Carousel = () => {
                   src={carousel.srcImg}
                   className="aspect-1/1 object-cover w-[96px] rounded-lg"
                 />
-                <p className="uppercase text-[0.75rem] text-black overflow-hidden px-2.5 font-bold hover:underline">
+                <p className="uppercase text-[0.75rem]overflow-hidden px-2.5 font-bold hover:underline">
                   {carousel.description}
                 </p>
               </div>

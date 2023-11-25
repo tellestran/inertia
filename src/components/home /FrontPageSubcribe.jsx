@@ -11,7 +11,7 @@ const FrontPageSubcribe = () => {
   };
   return (
     <div className="py-8 w-full flex justify-center align-center items-center ">
-      <div className="max-w-[1200px] w-[1200px] bg-[--color-100] p-20">
+      <div className="max-w-[1200px] w-[1200px] p-20">
         <div className="">
           <div className="grid grid-cols-2 gap-14">
             <div className="flex-col">

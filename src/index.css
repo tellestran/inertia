@@ -41,6 +41,11 @@
     --border-color: 8, 8, 8;
     --border-thin: 1px solid lightgray;
     --box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+      --color-text-light: #000;
+  --color-bg-light: #fff;
+  --color-text-dark: #fff;
+  --color-bg-dark: #000;
+
   }
 
   :root {
@@ -69,16 +74,16 @@
 } */
 
 /* Apply light theme */
-/* .light-theme {
-  --color-text: var(--color-text-light);
-  --color-bg: var(--color-bg-light);
+.light-theme {
+  --color-text: var(--color-text-light) !important;
+  --color-bg: var(--color-bg-light) !important;
 }
 
 /* Apply dark theme */
-/* .dark-theme {
-  --color-text: var(--color-text-dark);
-  --color-bg: var(--color-bg-dark);}
- */
+.dark-theme {
+  --color-text: var(--color-text-dark) !important;
+  --color-bg: var(--color-bg-dark) !important;}
+
 
 /* Use the variables */
 body {

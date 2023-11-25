@@ -1,8 +1,8 @@
 import React from "react";
-import ProductImg1 from "../assets/ProductImg1.webp";
-import ProductImg2 from "../assets/ProductImg2.webp";
-import ProductImg3 from "../assets/ProductImg3.webp";
-import ProductImg4 from "../assets/ProductImg4.webp";
+import ProductImg1 from "../../assets/ProductImg1.webp";
+import ProductImg2 from "../../assets/ProductImg2.webp";
+import ProductImg3 from "../../assets/ProductImg3.webp";
+import ProductImg4 from "../../assets/ProductImg4.webp";
 
 const FrontPageShopProducts = () => {
   const Products = [
@@ -55,7 +55,7 @@ const FrontPageShopProducts = () => {
         </p>
         <div className="grid grid-cols-4 my-1 gap-6 py-10 ">
           {Products.map((product) => (
-            <div className="gridItem flex-col bg-[--color-white] box-shadow">
+            <div className="gridItem flex-col box-shadow dark-theme">
               <div className="itemImage">
                 <a>
                   <img
@@ -64,7 +64,7 @@ const FrontPageShopProducts = () => {
                   />
                 </a>
               </div>
-              <div className="itemText text-left p-6 bg-white">
+              <div className=" text-left p-6 bg-white">
                 <span className="uppercase text-[12px] font-[400]">
                   {product.category}
                 </span>

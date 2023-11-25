@@ -5,7 +5,7 @@ import { AiOutlineShopping } from "react-icons/ai";
 
 const Navbar = () => {
   return (
-      <nav className="flex items-center p-6 bg-[#ffffff] text-[#171717] uppercase text-sm border-b-[1px] border-gray header-shadow">
+      <nav className="flex items-center p-6  uppercase text-sm border-b-[1px] border-gray header-shadow">
         <div className="flex items-center space-x-4 w-[40%]">
           <a href="#" className="">
             home
